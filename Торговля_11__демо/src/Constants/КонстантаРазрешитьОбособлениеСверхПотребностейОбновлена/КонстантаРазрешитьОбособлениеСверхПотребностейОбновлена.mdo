@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45edffec-4e7d-4ad0-b7d5-3a0165612c35">
+  <producedTypes>
+    <managerType typeId="7305613c-329a-469b-b470-c351097cc8d9" valueTypeId="b94afd5e-7235-4ca2-9da8-136a744fe176"/>
+    <valueManagerType typeId="25659b44-21d1-46fe-b9f1-b6fb232a087d" valueTypeId="e3af752f-8852-4ddc-b3f5-93e8017655d5"/>
+    <valueKeyType typeId="d0411f5b-7fce-43f0-bfcc-d1ac4e07d95a" valueTypeId="9f2691e0-9b26-497c-b0f1-228981196c4a"/>
+  </producedTypes>
+  <name>КонстантаРазрешитьОбособлениеСверхПотребностейОбновлена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константа разрешить обособление сверх потребностей обновлена</value>
+  </synonym>
+  <comment>Используется для обновления информационной базы</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

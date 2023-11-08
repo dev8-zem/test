@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa6811e-1e9a-445b-a35a-309fc4817938">
+  <producedTypes>
+    <objectType typeId="376d3947-97a7-42a0-8020-62f066f2f8d1" valueTypeId="78727373-6fd1-4cb0-acd4-8720525e12f6"/>
+    <managerType typeId="5173918e-1a39-4305-81bb-0d62ee2c3d87" valueTypeId="6e4af34f-ef58-44bd-abde-1e831af02399"/>
+  </producedTypes>
+  <name>УправлениеПродажамиНаOzon</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление продажами на Ozon</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УправлениеПродажамиНаOzon.Form.ПубликацияТоваров</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="dd517e04-276a-4ff4-9705-f1b38e276cd4">
+    <name>СписокПодключенийКСервису</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список подключений к сервису</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2c165bab-9581-4b1b-b392-817f4836e2b2">
+    <name>ПодключениеКСервису</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение к сервису</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5025df06-b2a0-4198-9527-88366e3721da">
+    <name>ТекущееСостояниеАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее состояние авторизации</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34accda9-6211-4bc3-be8d-e42a24260653">
+    <name>НастройкиИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки интеграции</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f8d09f6-07e7-4a8f-835e-95f9ca125a31">
+    <name>СопоставлениеКатегорий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление категорий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85bedd63-72c1-4ef1-ae86-59f332698b0d">
+    <name>ВыборКатегорииМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор категории маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d173adc3-fe33-42f2-a244-41d76b94907f">
+    <name>ВыборРеквизита1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор реквизита 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select report field</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eee04c67-bbc2-4409-a294-3f72d96ec89f">
+    <name>СопоставлениеЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9f236bc-0075-40fd-bd3f-2f9854f08fbc">
+    <name>СопоставлениеТиповСертификатов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление типов сертификатов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ddadf04-434f-452e-9ecd-bbf4189e9fb9">
+    <name>ВыборЗначенияМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор значения маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b157a83-57bb-4121-8eae-8e0c1588936e">
+    <name>ВыборСпискаЗначенийМаркетплейса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор списка значений маркетплейса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f678261f-6059-4981-b387-aeff6cf7311d">
+    <name>КарточкаСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка сертификата</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9db2e727-08c3-4f86-8601-852142b70dcf">
+    <name>ПубликацияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="19b4a1c8-5588-47c9-8605-70011bfc9dd6">
+    <name>НастройкаОтображенияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отображения остатков</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f896a033-ee9a-4975-9e67-722de81298fe">
+    <name>ПФ_MXL_КарточкаКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка категории</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

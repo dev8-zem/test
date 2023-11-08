@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ffd9d8d-27e0-484d-9080-e8df7a2dca39">
+  <producedTypes>
+    <objectType typeId="0060d61a-ee99-48fb-bcee-caf0e02eb4c5" valueTypeId="7d300c3c-e9a2-48a7-973c-e9379f9d81e3"/>
+    <managerType typeId="7619b87b-aa17-4cff-91c9-fe12cb6cb3f4" valueTypeId="eccf2bf8-7d44-4d8e-8e09-4144636c0e94"/>
+  </producedTypes>
+  <name>ЯндексМаркетВитринаФулфилмент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Маркет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЯндексМаркетВитринаФулфилмент.Form.ПодключениеКСервису</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="510224bf-2c13-4bf8-8812-456f52054e2c">
+    <name>ПодключениеКСервису</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение к сервису</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e3b35bb-096d-4120-9c4e-fe6cbfa6b995">
+    <name>ТекущееСостояниеАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее состояние авторизации</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5756ef51-d71e-4b47-b8ba-23eb3839da1e">
+    <name>ВыгрузкаТоварногоКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка товарного каталога</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a4592fa5-9668-4714-ae21-59c5982278e2">
+    <name>ОтборНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПодборНоменклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74cb99c9-4d1b-4e8b-a355-1b5f6d72300f">
+    <name>ПодборНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор номенклатуры</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a901ba42-900e-48cc-a2c3-6d8406513a61">
+    <name>ФормаВыбораЗагружаемыхВидовЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор загружаемых видов цен</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7035fa63-b047-4a51-b394-d29211ec1867">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1a9a9e3-86d7-4158-9255-8e38a18ce0ed">
+    <name>НастройкиОбменаДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки обмена данными</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

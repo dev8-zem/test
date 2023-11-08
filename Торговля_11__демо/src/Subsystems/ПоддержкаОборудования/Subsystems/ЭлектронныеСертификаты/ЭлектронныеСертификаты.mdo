@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4133d09-bf24-43ca-95a4-50a93130754c">
+  <name>ЭлектронныеСертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные сертификаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЭлектронныеСертификатыНСПК</content>
+  <content>CommonTemplate.КомпонентаИнтеграцииНСПК</content>
+  <content>CommonModule.ЭлектронныеСертификатыНСПКВызовСервера</content>
+  <content>CommonModule.ЭлектронныеСертификатыНСПККлиент</content>
+  <content>CommonModule.ЭлектронныеСертификатыНСПККлиентСервер</content>
+  <content>InformationRegister.ОшибкиПодтвержденияНСПК</content>
+  <content>CommonModule.ЭлектронныеСертификаты</content>
+  <content>CommonForm.ПодборСертификатовЭСНСПК</content>
+  <content>DefinedType.НоменклатураБПО</content>
+  <subsystems>СертификатыНУЦМинцифры</subsystems>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования</parentSubsystem>
+</mdclass:Subsystem>

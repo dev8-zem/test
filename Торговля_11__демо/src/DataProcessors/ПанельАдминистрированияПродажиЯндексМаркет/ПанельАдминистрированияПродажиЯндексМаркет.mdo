@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84cf689c-e449-4e36-acdb-21e35a899dc7">
+  <producedTypes>
+    <objectType typeId="6bc4f560-e8c4-43a1-bac2-a01dabf7706b" valueTypeId="58fa9177-9076-4242-8383-545bf3e7d081"/>
+    <managerType typeId="b2289c43-e728-4e3e-83e6-be9ae71f8b2c" valueTypeId="792ee264-c111-4a3b-b24a-fae60afa6182"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияПродажиЯндексМаркет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи на Яндекс.Маркет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПанельАдминистрированияПродажиЯндексМаркет.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="919ab807-d032-4938-837d-184161e3d2a5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

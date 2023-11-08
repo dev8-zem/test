@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24469372-efdf-4747-8bcb-58cd24566b01">
+  <name>zerno_ws_faults_1_0_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zerno ws faults 1 0 3</value>
+  </synonym>
+  <namespace>urn://x-artefacts-mcx-gov-ru/fgiz-zerno/api/ws/faults/1.0.3</namespace>
+</mdclass:XDTOPackage>

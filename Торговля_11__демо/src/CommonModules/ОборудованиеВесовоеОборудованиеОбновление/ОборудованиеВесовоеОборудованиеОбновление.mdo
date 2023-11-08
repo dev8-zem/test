@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf22b94f-8f2e-4c0b-9b82-c84f652cb5d9">
+  <name>ОборудованиеВесовоеОборудованиеОбновление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование весовое оборудование обновление</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7725b573-f209-4320-baf5-cbd89e4433e6">
+  <name>ЭлектронноеАктированиеЕИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное актирование ЕИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.НастройкиОбменаЕИС</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИС</content>
+  <content>Constant.ИспользоватьЭлектронноеАктированиеВЕИС</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСКлиент</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСПереопределяемый</content>
+  <content>FunctionalOption.ИспользоватьЭлектронноеАктированиеВЕИС</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСПолучениеВходящих</content>
+  <content>InformationRegister.КонтрагентыЕИС</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСПолучениеВходящихКлиентСервер</content>
+  <content>Catalog.ВидыВложенийДляАктированияЕИС</content>
+  <content>Enum.ВидыУчастниковЭлектронногоАктированияЕИС</content>
+  <content>DataProcessor.ЭлектронноеАктированиеЕИС</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСКлиентСервер</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИСВызовСервера</content>
+  <content>Enum.ТипыОбъектовЗакупкиЕИС</content>
+  <content>XDTOPackage.DP_PAKET_EIS_01_00</content>
+  <content>InformationRegister.ДанныеДокументовЭлектронногоАктированияЕИС</content>
+  <content>InformationRegister.ПриложенныеФайлыДляЭлектронногоАктированияЕИС</content>
+  <content>Role.ЧтениеДанныхДокументовЭлектронногоАктированияЕИС</content>
+  <content>Role.ДобавлениеИзменениеДанныхДокументовЭлектронногоАктированияЕИС</content>
+  <content>Enum.СтатусыПодписантовЕИС</content>
+  <content>Enum.ТипыПодписантовЕИС</content>
+  <content>Enum.КлассификаторМестаПоставкиЕИС</content>
+  <content>InformationRegister.МестаПоставкиДокументовДляЕИС</content>
+  <content>InformationRegister.ПодписантыДокументовЕИС</content>
+  <content>Catalog.ПодписантыОрганизацийЕИС</content>
+  <content>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайлаЭлАктированияЕИС</content>
+  <content>StyleItem.ЦветТекстаНеважнаяНадписьЭлАктированиеЕИС</content>
+  <content>DefinedType.КонтрагентБЭД</content>
+  <content>Role.ЧтениеНастроекЭлектронногоАктированияЕИС</content>
+  <content>Role.ДобавлениеИзменениеНастроекЭлектронногоАктированияЕИС</content>
+  <content>Enum.СтатусыГосударственныхКонтрактовЕИС</content>
+  <content>Enum.УдалитьСтавкиНДСКонтрактовЕИС</content>
+  <content>ScheduledJob.ПолучениеЭлектронныхДокументовИзЕИС</content>
+  <content>Constant.ВерсияСхемЭлектронногоАктированияЕИС</content>
+  <content>DefinedType.СтавкаНДСКонтрактаЕИС</content>
+  <content>Enum.СтатусыДокументовЕИС</content>
+  <content>InformationRegister.СтатусыДокументовЕИС</content>
+  <content>Enum.ВидыДокументовОбжалованияОтказаОПриемке</content>
+  <content>DefinedType.ГосударственныеКонтрактыБЭД</content>
+  <content>CommonModule.ЭлектронноеАктированиеЕИССтроительство</content>
+  <content>Enum.ТипыЛицевогоСчетаЕИС</content>
+  <content>XDTOPackage.DP_PAKET_EIS_01_00_13_1</content>
+  <content>XDTOPackage.DP_PAKET_EIS_01_00_13_2</content>
+  <subsystems>АктированиеДляЗаказчиков</subsystems>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие</parentSubsystem>
+</mdclass:Subsystem>

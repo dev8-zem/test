@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1441036e-50d8-4916-88b4-17585b9027fe">
+  <producedTypes>
+    <refType typeId="c6209784-8475-480f-b87f-532c503c372f" valueTypeId="f12482e7-58eb-4a7d-85e9-06323a9cd2e8"/>
+    <listType typeId="114980ef-bf6d-4d67-be61-89fe7f3a0a55" valueTypeId="855c2278-4f8b-4e4d-a4d9-cca69f9c6cfb"/>
+    <managerType typeId="dc691e7b-663e-4afc-9c47-df003c0b9eae" valueTypeId="043d37d2-34c2-4eb5-8dc5-2f4b5b4e3d84"/>
+  </producedTypes>
+  <name>ШаблоныКодовМаркировкиСУЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны кодов маркировки СУЗ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5f05e4a-170c-4c35-9650-6717d13d554b">
+    <name>Обувь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обувь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee304f89-e13f-4376-93ce-d4e9d49bc0a4">
+    <name>БлокТабачныхПачек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блок табачных пачек</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f361662-790e-49f9-bd2f-1b6d89a94669">
+    <name>ТабачнаяПачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табачная пачка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f9aa2be-d158-4dfa-b74e-b68aede32fb1">
+    <name>ЛегкаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара (Товары легкой промышленности и одежда)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb6c1aad-01e4-4d92-a7a9-3cfb12b25f6b">
+    <name>МолочнаяПродукцияПодконтрольнаяВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="392d265e-aa19-4c63-a29f-bdf7d351fced">
+    <name>СкоропортящаясяМолочнаяПродукцияВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скоропортящаяся молочная продукция ВЕТИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb952b0e-eee2-4841-98dd-2041070a6af8">
+    <name>МолочнаяПродукцияБезУказанияСроковГодностиВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция без указания сроков годности ВЕТИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee097164-7713-4eb6-a76d-970d768deed6">
+    <name>Шины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шины и автопокрышки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcdf4dee-b34b-4504-89c5-f04b687a1e51">
+    <name>Фотоаппараты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара (Фотоаппараты и лампы-вспышки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a72df857-a0ea-404d-80a3-43f14e976dc1">
+    <name>Духи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица товара (Духи и туалетная вода)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfe3d539-0ee6-48c4-923c-d446df022dc2">
+    <name>Велосипеды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Велосипеды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c869aac-0fcd-4809-bcfd-bbadbe09dce4">
+    <name>КреслаКоляски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медицинские изделия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfea6aca-8c1f-45fd-80e3-bc0ee457d4bb">
+    <name>ДухиКомплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект (Духи и туалетная вода)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="acdbe8f1-a711-4904-8191-d80d85567b61">
+    <name>ЛегкаяПромышленностьКомплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект (Товары легкой промышленности и одежда)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fa838b1-de9e-4ddb-82a3-767bd324f849">
+    <name>ФотоаппаратыКомплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект (Фотоаппараты и лампы-вспышки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d0756b5-eddf-4cdb-aa93-7b3d6a81edb2">
+    <name>АльтернативныйТабакБлок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак (Блок GS1)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3136927-96a2-400b-9949-0aaf4b29ff0f">
+    <name>АльтернативныйТабакПачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак (классический табак)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32061d87-a300-4312-9bb7-8c04235afbcc">
+    <name>АльтернативныйТабакПачкаGS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативный табак (ПачкаGS1)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b46e0f1-c678-4e8d-82bf-930be9714e5f">
+    <name>УпакованнаяВода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упакованная вода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="991f750c-94c9-4078-b122-4f08c7242875">
+    <name>МолочнаяПродукцияБезВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молочная продукция без ВЕТИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c72ec1db-6504-46bc-9676-109ed27f5002">
+    <name>МолочнаяПродукцияСерия6СимволовВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15dfb4b6-18b7-460c-98b1-75c64ff9c601">
+    <name>МолочнаяПродукцияСерия6СимволовБезВЕТИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Молоко и молочная продукция (без ВЕТИС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75f442a7-bd13-4f69-baaf-6969699f380f">
+    <name>Антисептики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Антисептики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8396e5bf-d25d-415f-9bc2-69cbb87295fd">
+    <name>БАДы</name>
+    <synonym>
+      <key>ru</key>
+      <value>БАДы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16fdea8b-b5dc-43fa-895b-f501b04c76ff">
+    <name>Пиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пиво</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dc0a9db-724e-4ed1-865b-af162ea37ca2">
+    <name>НикотиносодержащаяПродукцияПачка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никотиносодержащая продукция (пачка)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac744908-a92f-4f9c-a722-3235d9cf6bd0">
+    <name>НикотиносодержащаяПродукцияБлок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Никотиносодержащая продукция (блок)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef739633-88cb-4e39-bc00-94b25f1c4d79">
+    <name>ПродукцияИзНатуральногоМеха</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары из натурального меха</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="414fbea9-e246-440b-86a9-c3c662130bc9">
+    <name>НикотиносодержащаяПродукцияНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Никотиносодержащая продукция)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2547741-f173-4d54-a359-f78a03aae0d6">
+    <name>ДухиНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Духи и туалетная вода)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9c55c84-ec72-438d-a831-743120195cfa">
+    <name>ЛегкаяПромышленностьНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Легкая промышленность)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69ce1226-35bf-4b7c-91be-14158367b0a0">
+    <name>ФотоаппаратыНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Фотоаппараты и лампы-вспышки)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4c82c24-2684-4ad8-9cd1-6b3188904f10">
+    <name>АнтисептикиНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Антисептики)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32e88249-41d6-4761-9dbc-99c6b035b1ea">
+    <name>МолочнаяПродукцияПодконтрольнаяВЕТИСНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Молочная продукция подконтрольная ВЕТИС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f33ea3f2-28d5-42c7-a6f7-eb6d98e6e924">
+    <name>МолочнаяПродукцияБезВЕТИСНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Молочная продукция без ВЕТИС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7832a29c-a665-4201-9536-262236c0edd3">
+    <name>АнтисептикиГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Антисептики)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55ca5ca3-470c-4a5a-bfb3-54a35eef524d">
+    <name>МолочнаяПродукцияПодконтрольнаяВЕТИСГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Молочная продукция подконтрольная ВЕТИС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9b7cf39-241c-4091-b6a1-f5a18507c014">
+    <name>МолочнаяПродукцияБезВЕТИСГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Молочная продукция без ВЕТИС)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef035446-cc41-4f53-8de4-af46a4414c65">
+    <name>ПивоГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Пиво)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7007303-72e4-4fe1-b697-1cba9caa2da8">
+    <name>УпакованнаяВодаГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Упакованная вода)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4a32da3-616e-4bc3-be62-e200cca443c2">
+    <name>СоковаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соковая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1924f62c-c3b4-4108-946c-76212811aa73">
+    <name>БезалкогольноеПиво</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безалкогольное пиво</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b40b941-7852-4331-af6b-7912d4ff8ad6">
+    <name>БАДыНабор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (БАДы)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb53879f-4d02-4731-b67e-80a129271354">
+    <name>БАДыГрупповаяУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (БАДы)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7989b8fa-0344-4195-a3be-b64fad8208fb">
+    <name>БАДыСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БАДы - Стандартный КМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de6aadaf-13f8-4996-8982-aa9700d2ddb1">
+    <name>БАДыНаборСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (БАДы - Стандартный КМ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6894a1cd-32a6-4609-89e4-2e732b784a8e">
+    <name>БАДыГрупповаяУпаковкаСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (БАДы - Стандартный КМ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecb19756-3cc9-43a5-a713-62ff1fa570a3">
+    <name>АнтисептикиСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Антисептики - Стандартный КМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8fe0933-ab32-43b8-90f0-b2d84df00d9a">
+    <name>АнтисептикиНаборСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор (Антисептики - Стандартный КМ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3deca0fd-a503-4b96-988e-3a52699a5150">
+    <name>АнтисептикиГрупповаяУпаковкаСтандартныйКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая упаковка (Антисептики - Стандартный КМ)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

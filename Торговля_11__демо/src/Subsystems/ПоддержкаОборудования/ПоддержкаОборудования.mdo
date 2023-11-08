@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПоддержкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема поддержки оборудования</value>
+  </explanation>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>Enum.ТипыПлатежныхОпераций</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DefinedType.ТорговыйОбъектБПО</content>
+  <content>DefinedType.ОрганизацияБПО</content>
+  <content>Enum.ПериодХраненияИсторииПлатежныхОпераций</content>
+  <content>Role.БазовыеПраваБПО</content>
+  <content>DefinedType.ПользовательБПО</content>
+  <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Role.ВыполнениеСинхронизацииДанных</content>
+  <content>InformationRegister.ЗначенияЕМРЦ</content>
+  <content>DefinedType.ДенежнаяСуммаНеотрицательная</content>
+  <content>DefinedType.ДенежнаяСуммаЛюбогоЗнака</content>
+  <content>InformationRegister.ПлатежныеОперации</content>
+  <content>ScheduledJob.ОчисткаИсторииПлатежныхОпераций</content>
+  <content>DataProcessor.ПанельАдминистрированияБПО</content>
+  <content>CommonForm.ПодборСертификатовЭСНСПК</content>
+  <content>Enum.ВидыМаркированнойПродукцииБПО</content>
+  <content>Enum.ВидыТранспортаОфлайнОбмена</content>
+  <content>Enum.ТипыОфлайнОборудования</content>
+  <subsystems>ОфлайнОборудование</subsystems>
+  <subsystems>ПечатьЭтикетокИЦенников</subsystems>
+  <subsystems>ПодключаемоеОборудование</subsystems>
+  <subsystems>ЭлектронныеСертификаты</subsystems>
+  <subsystems>СообщенияВСлужбуТехническойПоддержки</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f94b58a-7eaf-43c9-8056-3c3450f03b8b">
+  <producedTypes>
+    <managerType typeId="05f8f6c7-392c-433b-99ae-0d86f363507f" valueTypeId="f4a7369e-cc24-4f83-b023-1ba53832e075"/>
+    <valueManagerType typeId="9c5fef17-6722-458b-86ab-5316bfc626ac" valueTypeId="9a81f3fa-faf6-479b-9898-8f378965e623"/>
+    <valueKeyType typeId="c47db19b-23da-44d1-809c-78736fdaa2ae" valueTypeId="032069dc-8d61-434c-bb73-8f359a9f27e7"/>
+  </producedTypes>
+  <name>ИспользоватьФормуОплатыЧекаККМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реквизит &quot;форма оплаты&quot; чека ККМ</value>
+  </synonym>
+  <comment>Служебная константа, не предназначена для размещения в интерфейсе</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

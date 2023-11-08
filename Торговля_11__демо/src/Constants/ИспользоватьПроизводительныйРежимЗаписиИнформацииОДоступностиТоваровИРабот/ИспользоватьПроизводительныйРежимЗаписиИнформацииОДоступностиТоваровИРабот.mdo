@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae80050a-a8ff-4752-8f62-faa115ae55a3">
+  <producedTypes>
+    <managerType typeId="f8ce6a01-88bf-499e-a216-de269f428b69" valueTypeId="31fdeeb4-8ff2-4fb9-a6d5-541af46f67b0"/>
+    <valueManagerType typeId="0a8cceb8-248b-4689-b4cf-ad63138fb25b" valueTypeId="03012916-4ab6-4a09-8f98-b21e35099bd3"/>
+    <valueKeyType typeId="3ba8237f-d421-42ed-bcab-d6a207426e15" valueTypeId="957347a2-bedc-40fa-a087-0f16d887f4f0"/>
+  </producedTypes>
+  <name>ИспользоватьПроизводительныйРежимЗаписиИнформацииОДоступностиТоваровИРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать производительный режим записи информации о доступности товаров и работ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

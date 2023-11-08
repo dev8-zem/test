@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c47b4c6-e37a-46cd-9f6a-5933e8857652">
+  <name>zerno_sdiz_1_0_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zerno sdiz 1 0 3</value>
+  </synonym>
+  <namespace>urn://x-artefacts-mcx-gov-ru/fgiz-zerno/api/sdiz/1.0.3</namespace>
+</mdclass:XDTOPackage>

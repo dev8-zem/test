@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="756ae85b-eecd-4f7d-ac35-d1e96a561cc4">
+  <name>ВесовоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Весовое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОборудованиеВесовоеОборудованиеКлиент</content>
+  <content>CommonModule.ОборудованиеВесовоеОборудованиеОбновление</content>
+  <content>CommonTemplate.ДрайверCASЭлектронныеВесы</content>
+  <content>CommonTemplate.ДрайверАТОЛЭлектронныеВесы8X</content>
+  <content>CommonTemplate.ДрайверШтрихМЭлектронныеВесыPOS2</content>
+  <content>CommonTemplate.ДрайверМассаКЭлектронныеВесыИСПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверCASВесыСПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверРБСВесыCПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверШтрихМВесыСПечатьюЭтикетокШтрихПринт</content>
+  <content>CommonModule.ОборудованиеВесовоеОборудованиеВызовСервера</content>
+  <content>CommonModule.ОборудованиеВесовоеОборудованиеКлиентСервер</content>
+  <content>CommonTemplate.ДрайверАТОЛВесыСПечатьюЭтикеток8X</content>
+  <content>CommonTemplate.ДрайверСервисПлюсЭлектронныеВесы</content>
+  <content>CommonTemplate.ДрайверСервисПлюсВесыСПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверМАСЭлектронныеВесы</content>
+  <content>CommonTemplate.ДрайверBizerbaВесыСПечатьюЭтикеток</content>
+  <content>CommonTemplate.Драйвер1СЭлектронныеВесы</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>CommonModule.МенеджерОборудования</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСерверПереопределяемый</content>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</content>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверСинхронноКлиент</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>Catalog.РабочиеМеста</content>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Enum.ТипыПодключенияОборудования</content>
+  <content>Enum.ТипыПодключаемогоОборудования</content>
+  <content>Enum.СпособПодключенияДрайвера</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Enum.СпособыФорматноЛогическогоКонтроля</content>
+  <content>CommonTemplate.ДрайверCASЭлектронныеВесы2х</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>CommonTemplate.ДрайверCASВесыСПечатьюЭтикеток2х</content>
+  <content>CommonTemplate.ДрайверШтрихМВесыСПечатьюЭтикетокШтрихПринтNG</content>
+  <content>CommonModule.МенеджерОборудованияПовтИсп</content>
+  <content>CommonTemplate.ДрайверМертехЭлектронныеВесы</content>
+  <content>CommonTemplate.ДрайверМертехВесыСПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверРБСВесыCПечатьюЭтикетокVenus</content>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

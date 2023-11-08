@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff00ec9a-80c6-4bfe-ad73-145c29244824">
+  <producedTypes>
+    <selectionType typeId="9d9e0161-09b6-4fba-bdc6-69ecc50a9b3e" valueTypeId="bf0534e8-3dd5-4d4a-8364-a1929826e19f"/>
+    <listType typeId="41faba27-0c0d-4a15-b456-9b6eb3941010" valueTypeId="df2447ab-973d-4075-a2a8-78b99542debf"/>
+    <managerType typeId="6191b70d-6a8c-4b56-8d69-145c6f7c206d" valueTypeId="388d8329-09ed-4295-82ba-c4c8995ee1b8"/>
+    <recordSetType typeId="5ddcef14-92db-49f0-b583-61c5c4dcac18" valueTypeId="91b8a8fc-2bf5-4a3c-939e-3799656e757c"/>
+    <recordKeyType typeId="29586eb8-2db1-4faf-ac48-40ef1b295ba7" valueTypeId="0096c180-5755-406b-854b-19a7bbb03d45"/>
+    <recordType typeId="b37142eb-38b7-45f3-bee9-a4279b4a0621" valueTypeId="28f26326-8c81-4e73-8b8c-980d7fedb121"/>
+    <recordManagerType typeId="53777a6b-b91a-405a-aa7d-44f00176b25e" valueTypeId="1e4384e7-751c-47bf-8148-2e780477d8a9"/>
+  </producedTypes>
+  <name>СтавкиДисконтирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки дисконтирования</value>
+  </synonym>
+  <comment>Дополняет учетную политику финансового учета ставками дисконтирования в разных валютах</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e39ff252-1fb2-4e81-b98d-433961fcde25">
+    <name>СтавкаДисконтирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка дисконтирования, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для приведения суммы кредиторской задолженности к дате приобретения и списания процентных расходов по рассрочке.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3d093f59-13c5-4a93-a16f-943058a16f36">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="963cddb6-051e-4709-af57-042574f4ff56">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="21929fbc-7eab-40cc-a71d-353bf81ede95">
+    <name>РедактированиеСтавокДисконтирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование ставок дисконтирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b86d22d8-a6e3-4e7e-8fbf-afe86dc1c89b">
+  <producedTypes>
+    <objectType typeId="504ef527-612b-4786-83a1-31063408d967" valueTypeId="a71cdeb1-8e29-470b-85ee-6adf95ee0623"/>
+    <managerType typeId="bd341171-8b04-4821-998e-007a5bee401f" valueTypeId="9f451783-3c96-44b2-8b06-e7b67f9ea9c4"/>
+  </producedTypes>
+  <name>УдалитьТестированиеПроведенияДокументовПартионныйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Тестирование проведения документов (партионный учет)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

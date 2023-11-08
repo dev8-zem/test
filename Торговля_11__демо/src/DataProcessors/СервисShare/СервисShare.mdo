@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79cb9b60-3427-497f-b977-90133964e996">
+  <producedTypes>
+    <objectType typeId="6a1b70dd-0cc8-4f18-81f4-18b778617a21" valueTypeId="ba389c95-25f3-4ffa-8398-afdfe651bbf3"/>
+    <managerType typeId="c5893367-e96d-4393-aa4d-471ac69dbb8b" valueTypeId="543c0bb9-b5ee-405b-bb02-7a0660d2dc3d"/>
+  </producedTypes>
+  <name>СервисShare</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис share</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СервисShare.Form.ПоделитьсяДокументом</defaultForm>
+  <forms uuid="356b1a90-ff02-4321-9429-8c79ac753558">
+    <name>ПоделитьсяДокументом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поделиться документом</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65ca391c-3de7-469e-bc8b-00ab75c1da96">
+  <producedTypes>
+    <objectType typeId="cae9b126-132a-42ff-b6e5-b02f9bdbad75" valueTypeId="16996260-4f40-4fd8-b54f-237d6f0e5278"/>
+    <managerType typeId="e64b9d42-ca15-4319-ad82-be3de90e7315" valueTypeId="01b51372-587e-483a-a873-6478d4e3a699"/>
+  </producedTypes>
+  <name>ВедомостьПоДисконтированнойЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по дисконтированной задолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьПоДисконтированнойЗадолженности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="646eed73-ad01-4c46-a997-d6985849228b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

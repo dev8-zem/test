@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18ae3684-144a-4366-b77b-93fcdc47d614">
+  <name>ИнтерфейсДокументовЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс документов ЭДО</value>
+  </synonym>
+  <content>DataProcessor.ИнтерфейсДокументовЭДО</content>
+  <content>CommonModule.ИнтерфейсДокументовЭДОКлиент</content>
+  <content>CommonModule.ИнтерфейсДокументовЭДО</content>
+  <content>CommonModule.ИнтерфейсДокументовЭДОКлиентСервер</content>
+  <content>CommonModule.ИнтерфейсДокументовЭДОВызовСервера</content>
+  <content>CommonPicture.КоллекцияТиповДокументовЭДО</content>
+  <content>InformationRegister.ПроверкиЭлектронныхПодписейЭДО</content>
+  <content>StyleItem.ЦветРамкиПредпросмотраЭлектронногоДокумента</content>
+  <content>CommonPicture.СтатусыОбработкиДокументовБЭД</content>
+  <content>CommonPicture.ТребуетВниманияБЭД</content>
+  <content>CommonModule.ИнтерфейсДокументовЭДОВызовСервераПовтИсп</content>
+  <content>CommonPicture.ТребуетВниманияЖелтыйШарБЭД</content>
+  <subsystems>ПакетыДокументовЭДО</subsystems>
+  <parentSubsystem>Subsystem.ЭлектронноеВзаимодействие.Subsystem.ОбменСКонтрагентами</parentSubsystem>
+</mdclass:Subsystem>

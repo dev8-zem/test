@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aae10133-effd-4b70-905b-670a6e61a096">
+  <name>ИнтеграцияСПлатежнымиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с платежными системами</value>
+  </synonym>
+  <content>EventSubscription.КонтрольНеразделенныхНаборовЗаписейПриЗаписиИнтеграцияСПлатежнымиСистемами</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

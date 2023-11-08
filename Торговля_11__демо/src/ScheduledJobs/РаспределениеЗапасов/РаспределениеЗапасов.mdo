@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a427c025-8860-43b8-87b3-50e6bbe6a465">
+  <name>РаспределениеЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение запасов</value>
+  </synonym>
+  <methodName>CommonModule.РаспределениеЗапасов.РаспределениеЗапасовРегламентноеЗадание</methodName>
+  <key>788ca687-8d0b-4447-b7c8-a5d9d1f90f7b</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

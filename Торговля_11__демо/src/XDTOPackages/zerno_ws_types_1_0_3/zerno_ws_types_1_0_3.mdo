@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8218416e-29d3-4692-9087-48cf3c5e3c83">
+  <name>zerno_ws_types_1_0_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zerno ws types 1 0 3</value>
+  </synonym>
+  <namespace>urn://x-artefacts-mcx-gov-ru/fgiz-zerno/api/ws/types/1.0.3</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85857058-3391-49c7-b00b-c5579084893c">
+  <name>zerno_api_gpb_sdiz_1_0_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Zerno api gpb sdiz 1 0 3</value>
+  </synonym>
+  <namespace>urn://x-artefacts-mcx-gov-ru/fgiz-zerno/api/ws/gpb-sdiz/1.0.3</namespace>
+</mdclass:XDTOPackage>

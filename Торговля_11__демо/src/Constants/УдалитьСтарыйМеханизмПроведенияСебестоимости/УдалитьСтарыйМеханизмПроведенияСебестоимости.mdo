@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5161e7c-4e28-4ee4-8be9-c308e0b33f81">
+  <producedTypes>
+    <managerType typeId="60b9d09e-60a5-42e7-9022-3754e22ef104" valueTypeId="4211311e-9cbc-4bfc-89c6-b41f758cc2b2"/>
+    <valueManagerType typeId="f032e266-e518-4ec8-81cd-05e728f352d2" valueTypeId="a6c30547-1706-436a-9b4a-d1c170fb1afe"/>
+    <valueKeyType typeId="f249f6c7-e4a5-4d00-a89a-fc92fd61f97b" valueTypeId="27a20f8f-a701-41f2-beee-e0889f953e32"/>
+  </producedTypes>
+  <name>УдалитьСтарыйМеханизмПроведенияСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Старый механизм проведения себестоимости</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

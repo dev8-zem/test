@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38d49cdd-f166-4aff-9ce6-c7a5283ad7fe">
+  <name>ПрогнозированиеПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогнозирование продаж</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЖурналСервисаПрогнозирования</content>
+  <content>InformationRegister.СервисПрогнозированияИдентификаторыОбучения</content>
+  <content>DataProcessor.ПанельУправленияСервисомПрогнозирования</content>
+  <content>Report.ОтчетСервисПрогнозированияСлужебный</content>
+  <content>Constant.НастройкиОтборовНаВыгрузкуСервисаПрогнозирования</content>
+  <content>Constant.НастройкиОтборовНаЗагрузкуСервисаПрогнозирования</content>
+  <content>Constant.НастройкиСервисаПрогнозирования</content>
+  <content>CommonTemplate.СервисПрогнозированияФильтрЗагрузкиПрогноза</content>
+  <content>CommonTemplate.СервисПрогнозированияФильтрОтправляемыхДанных</content>
+  <content>ScheduledJob.ВыгрузкаДанныхВСервисПрогнозированияПродаж</content>
+  <content>ScheduledJob.ЗагрузкаДанныхИзСервисаПрогнозированияПродаж</content>
+  <content>SessionParameter.НастройкиСервисаПрогнозирования</content>
+  <content>CommonModule.СервисПрогнозирования</content>
+  <content>CommonModule.СервисПрогнозированияПереопределяемый</content>
+  <content>CommonModule.СервисПрогнозированияПереопределяемыйКлиентСервер</content>
+  <content>InformationRegister.КоллекцииСервисаПрогнозированияПродаж</content>
+  <content>InformationRegister.СтатусыОбменаДаннымиССервисомПрогнозированияПродаж</content>
+  <content>Role.ДобавлениеИзменениеНастроекСервисаПрогнозированияПродаж</content>
+  <content>Enum.КоллекцииСервисаПрогнозированияПродаж</content>
+  <content>Role.ИспользованиеСервисаПрогнозированияПродаж</content>
+  <content>Role.ИспользованиеОбработкиПанельУправленияСервисомПрогнозирования</content>
+  <parentSubsystem>Subsystem.Планирование.Subsystem.ПланированиеЗапасов</parentSubsystem>
+</mdclass:Subsystem>

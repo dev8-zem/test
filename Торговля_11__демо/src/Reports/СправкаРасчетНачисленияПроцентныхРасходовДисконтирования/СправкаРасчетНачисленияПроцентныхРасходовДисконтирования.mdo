@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f9b67ab-cec1-4932-8215-4382024f8922">
+  <producedTypes>
+    <objectType typeId="6769edae-a3dc-45c3-9bca-8405b23058d8" valueTypeId="564e3115-8520-4ff0-bf18-514dc3eb6264"/>
+    <managerType typeId="15e5cd24-d0ee-42f0-b8f0-2fa0a57e1bc2" valueTypeId="142dfd0e-4ace-4fab-956f-f668036fdb7e"/>
+  </producedTypes>
+  <name>СправкаРасчетНачисленияПроцентныхРасходовДисконтирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка-расчет начисления процентных расходов дисконтирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СправкаРасчетНачисленияПроцентныхРасходовДисконтирования.Form.ФормаОтчета</defaultForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="363bdbb6-7211-4c7d-881f-4f6a121814cb">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d3e21359-7335-4fff-8d7e-08229cc1ecd5">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

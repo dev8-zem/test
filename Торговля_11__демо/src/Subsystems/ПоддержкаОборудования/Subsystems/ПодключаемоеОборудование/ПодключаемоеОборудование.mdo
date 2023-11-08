@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e62be839-d3c0-4ee9-b370-54d77665643e">
+  <name>ПодключаемоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверКлиент</content>
+  <content>Enum.ОбработчикиДрайверовПодключаемогоОборудования</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>CommonModule.МенеджерОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСерверПереопределяемый</content>
+  <content>Enum.СпособыФорматноЛогическогоКонтроля</content>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПовтИсп</content>
+  <content>CommonTemplate.КодВидаНоменклатурнойКлассификации</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>CommonModule.МенеджерОборудованияКлиентСервер</content>
+  <content>DefinedType.СубъектПерсональныхДанныхБПО</content>
+  <content>CommonModule.МенеджерОборудованияКлиентПереопределяемый</content>
+  <content>DefinedType.ОснованиеФискальнойОперацииБПО</content>
+  <content>Enum.ТипыПодключенияОборудования</content>
+  <content>Enum.ТипыПодключаемогоОборудования</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервераПереопределяемый</content>
+  <content>Constant.ИдентификаторОбсужденияФискализации</content>
+  <content>CommonModule.МенеджерОборудования</content>
+  <content>CommonModule.ПодключаемоеОборудованиеДрайверСинхронноКлиент</content>
+  <content>Enum.СпособПодключенияДрайвера</content>
+  <content>CommonCommand.ВыбратьРМТекущегоСеанса</content>
+  <content>CommonForm.КодВидаНоменклатурнойКлассификации</content>
+  <content>CommonModule.МенеджерОборудованияВызовСервера</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>CommonModule.МенеджерОборудованияПовтИсп</content>
+  <subsystems>УстройстваВвода</subsystems>
+  <subsystems>ЧекопечатающиеУстройства</subsystems>
+  <subsystems>ПлатежныеСистемы</subsystems>
+  <subsystems>ДисплеиПокупателя</subsystems>
+  <subsystems>ВесовоеОборудование</subsystems>
+  <subsystems>ТерминалыСбораДанных</subsystems>
+  <subsystems>ПринтерыЭтикеток</subsystems>
+  <subsystems>СчитывательRFID</subsystems>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования</parentSubsystem>
+</mdclass:Subsystem>
